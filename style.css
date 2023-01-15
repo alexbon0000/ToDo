@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+* {
+  font-family: 'Comfortaa';
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 30px;
+  min-height: 100vh;
+  background-color: rgb(220, 220, 220);
+}
+.conteyner {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  width: 370px;
+  margin: 0 auto;
+
+  border-radius: 10px;
+}
+
+.input {
+  width: 360px;
+  height: 30px;
+  padding-left: 3px;
+  padding-right: 4px;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color:rgb(64, 64, 213) ;
+}
+input:focus {
+  outline: none;
+  border-color: rgb(0, 0, 207);
+}
+.btn {
+  height: 30px;
+  width: 90px;
+  margin-top: 10px;
+  position: relative;
+  background-color: rgb(64, 64, 213);
+  color: white;
+  border: 0px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.ul {
+  padding-top: 20px;
+}
+.li {
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 5px;
+  overflow: hidden;
+  list-style-type: none;
+  border: 2px solid;
+  border-color: rgb(64, 64, 213);
+  border-radius: 10px;
+  background-color: white;
+}
+.span {
+  display: block;
+}
+.spanDone{
+  color: rgb(140, 140, 140);
+  text-decoration: line-through;
+}
+.ok {
+  
+  display: inline-block;
+  margin-top: 5px;
+  
+  width: 20px;
+  height: 20px;
+  background-image: url(v.png);
+  background-size: cover;
+  cursor: pointer;
+}
+.delete {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  background-image: url(x.png);
+  background-size: cover;
+  cursor: pointer;
+}
+.liDone {
+  background-color: rgb(191, 255, 191);
+}
